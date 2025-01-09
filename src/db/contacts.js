@@ -13,10 +13,10 @@ async function listContacts() {
   }
 }
 
-// (async () => {
-//   const contacts = await listContacts();
-//   console.log(contacts);
-// })();
+(async () => {
+  const contacts = await listContacts();
+  console.log(contacts);
+})();
 
 async function getContactById(contactId) {
   try {
@@ -28,10 +28,10 @@ async function getContactById(contactId) {
   }
 }
 
-// (async () => {
-//   const contacts = await getContactById("AeHIrLTr6JkxGE6SN-0Rw");
-//   console.log(contacts);
-// })();
+(async () => {
+  const contacts = await getContactById("AeHIrLTr6JkxGE6SN-0Rw");
+  console.log(contacts);
+})();
 
 async function removeContact(contactId) {
   try {
@@ -50,10 +50,10 @@ async function removeContact(contactId) {
   }
 }
 
-// (async () => {
-//   const contacts = await removeContact("qdggE76Jtbfd9eWJHrssH");
-//   console.log(contacts);
-// })();
+(async () => {
+  const contacts = await removeContact("qdggE76Jtbfd9eWJHrssH");
+  console.log(contacts);
+})();
 
 async function addContact(name, email, phone) {
   try {
@@ -81,9 +81,9 @@ async function addContact(name, email, phone) {
   }
 }
 
-// (async () => {
-//   const contacts = await addContact("Alice", "alice@example.com", "123-456-7890");
-//   console.log(contacts);
-// })();
+(async () => {
+  const contacts = await addContact("Alice", "alice@example.com", "123-456-7890");
+  console.log(contacts);
+})();
 
 export { listContacts, getContactById, removeContact, addContact };
