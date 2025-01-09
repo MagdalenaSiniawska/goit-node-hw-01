@@ -1,0 +1,29 @@
+{
+  "name": "goit-node-hw-01",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagdalenaSiniawska/goit-node-hw-01.git"
+  },
+  "keywords": [],
+  "author": "Magdalena Siniawska <m.paszke94@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagdalenaSiniawska/goit-node-hw-01/issues"
+  },
+  "homepage": "https://github.com/MagdalenaSiniawska/goit-node-hw-01#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "commander": "^13.0.0",
+    "uuid": "^11.0.4"
+  }
+}
